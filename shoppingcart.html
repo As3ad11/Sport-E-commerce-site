@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>All products - YallStore | Ecommerce website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/black-logo.png" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\index.html"
+              >
+                <strong>Home</strong></a
+              >
+            </li>
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\products.html"
+              >
+                <strong>Products</strong></a
+              >
+            </li>
+            <li>
+              <a href=""> <strong>About</strong></a>
+            </li>
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\Contact.html"
+              >
+                <strong>Contacts</strong></a
+              >
+            </li>
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\account.html"
+              >
+                <strong>Account</strong>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\shoppingcart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <!-------------------cart items details----------------->
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-1.jpg" />
+              <div>
+                <p>nice red t-shirt</p>
+                <small> Price: Rm 115.00</small>
+                <br />
+                <a href=""><strong>Delete</strong></a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rm 115.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-2.jpg" />
+              <div>
+                <p>nice red t-shirt</p>
+                <small> Price: Rm 119.00</small>
+                <br />
+                <a href=""><strong>Delete</strong></a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rm 115.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/buy-3.jpg" />
+              <div>
+                <p>nice red t-shirt</p>
+                <small> Price: Rm 99.50</small>
+                <br />
+                <a href=""><strong>Delete</strong></a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>Rm 115.00</td>
+        </tr>
+      </table>
+
+      <div class="total-cost">
+        <table>
+          <tr>
+            <td>Delivery</td>
+            <td>Rm 7.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>Rm 340.50</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-------footer----->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our Mobile App</h3>
+            <p>Download Our App for Andoraid and Ios devices</p>
+            <div class="app-logo">
+              <img src="images/app-store.png" />
+              <img src="images/play-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/black-logo.png" />
+            <p>
+              Our purpose is to provides the atheties with the verity form of
+              sport essentials at affordable proces
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us For More Updates</h3>
+            <ul>
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Youtube</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="Copyright">Copyright 2022 - YallSport</p>
+      </div>
+    </div>
+
+    <!-----------------js for toggle menu------------>
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight == "200px";
+        } else {
+          MenuItems.style.maxHeight == "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

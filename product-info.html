@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>All products - YallStore | Ecommerce website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/black-logo.png" width="125px"
+          /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\index.html"
+              >
+                <strong>Home</strong></a
+              >
+            </li>
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\products.html"
+              >
+                <strong>Products</strong></a
+              >
+            </li>
+            <li>
+              <a href=""> <strong>About</strong></a>
+            </li>
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\Contact.html"
+              >
+                <strong>Contacts</strong></a
+              >
+            </li>
+            <li>
+              <a
+                href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\account.html"
+              >
+                <strong>Account</strong>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <a
+          href="C:\Users\User\Desktop\Asaad\school\Modules\xml\Assignment- final submission\xml assignment\shoppingcart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+    </div>
+
+    <!------- a particular product details----------------->
+
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/gallery-1.jpg" width="100%" id="productImg" />
+
+          <div class="small-img-row">
+            <div class="small-img-col">
+              <img src="images/gallery-1.jpg" width="100%" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/gallery-2.jpg" width="100%" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/gallery-3.jpg" width="100%" class="small-img" />
+            </div>
+            <div class="small-img-col">
+              <img src="images/gallery-4.jpg" width="100%" class="small-img" />
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <p>Home / T-shirs</p>
+          <h1>nice red t-shirt</h1>
+          <h4>50.00</h4>
+          <select>
+            <option>Choose your size</option>
+            <option>XL</option>
+            <option>L</option>
+            <option>M</option>
+            <option>S</option>
+            <option>XS</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="" class="btn"> Add to cart</a>
+          <h3>
+            Product description <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </h3>
+          <br />
+          <p>
+            This classic white tee from Comme des Garçons PLAY adorned with the
+            brand's signature heart motif for a bold final flourish, will
+            elevate your wardrobe basics. Ribbed Crewneck Appliqué Branding
+            Short Sleeves Large Heart Motif at the front Composition: 100%
+            Cotton Fit: Slim Fit Style: T026 You are advised to do a size up, as
+            it may shrink a bit after washing. You may wash using machine.
+            However, our recommendation is hand wash in cold water. Note: There
+            are 4 available sizes: S, M, L, XL.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--------------title------>
+
+    <div class="small-container">
+      <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+      </div>
+    </div>
+
+    <!-------product------->
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-9.jpg" />
+          <h4>Red Printed T-shirt</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <p>$65.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg" />
+          <h4>Black shoe</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg" />
+          <h4>Grey pants</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <p>$75.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="images/product-12.jpg" />
+          <h4>Blue polo t-shirt</h4>
+          <div class="rating">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <p>$45.80</p>
+        </div>
+      </div>
+    </div>
+
+    <!-------footer----->
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our Mobile App</h3>
+            <p>Download Our App for Andoraid and Ios devices</p>
+            <div class="app-logo">
+              <img src="images/app-store.png" />
+              <img src="images/play-store.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/black-logo.png" />
+            <p>
+              Our purpose is to provides the atheties with the verity form of
+              sport essentials at affordable proces
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog post</li>
+              <li>Return policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us For More Updates</h3>
+            <ul>
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>Youtube</li>
+              <li>Twitter</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="Copyright">Copyright 2022 - YallSport</p>
+      </div>
+    </div>
+
+    <!-----------------js for toggle menu------------>
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight == "200px";
+        } else {
+          MenuItems.style.maxHeight == "0px";
+        }
+      }
+    </script>
+
+    <!-----------------js for product pics------------>
+
+    <script>
+      var productImg = document.getElementById("productImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        productImg.src = smallimg[0].src;
+      };
+
+      smallimg[1].onclick = function () {
+        productImg.src = smallimg[1].src;
+      };
+
+      smallimg[2].onclick = function () {
+        productImg.src = smallimg[2].src;
+      };
+
+      smallimg[3].onclick = function () {
+        productImg.src = smallimg[3].src;
+      };
+    </script>
+  </body>
+</html>
